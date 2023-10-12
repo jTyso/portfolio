@@ -1,0 +1,24 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital@1&display=swap");
+
+html header body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  background-image: url("../../public/images/clouds2.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: tan;
+}
+
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

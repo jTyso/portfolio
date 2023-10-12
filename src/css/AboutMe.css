@@ -1,0 +1,52 @@
+.about-me-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2%;
+  width: 100%;
+  max-width: 1200px;
+  height: 100%; 
+}
+
+.about-me-child-container {
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  width: 49%;
+  height: 80%;
+  padding-right: 0%;
+  /* background: transparent; */
+  /* border: 2px solid rgba(255, 255, 255, 0.3); */
+  /* box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); */
+}
+
+.first-name, .last-name {
+    font-family: "Old Standard TT", serif;
+    margin: 0.0;
+    font-size: calc(85px + 0.5vw);
+    align-items: last baseline;
+    
+}
+
+/* .name {
+  color: tan;
+} */
+
+.first-name {
+  margin-bottom: -40px;
+  text-align: left;
+}
+
+.last-name {
+  text-align: right;
+}
+
+.right {
+  flex-direction: coludmn;
+  align-self: flex-end;
+}
+
+.quote {
+  padding-left: 40%;
+}
+

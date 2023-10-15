@@ -1,74 +1,95 @@
 @import url("https://fonts.googleapis.com/css?family=Roboto&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital@1&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital@1&family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Old+Standard+TT:ital@1&family=Quicksand:wght@300&family=Roboto:wght@100&display=swap');
 
-
-body, html {
-  background-color: #484945;
-  margin: 0;
+html {
+  background-image: url("../../public/images/purple-background.jpg");
+  background-size: cover; /* This will cover the entire viewport */
+  background-repeat: no-repeat; /* Prevent image from repeating */
+  background-attachment: fixed;
 }
 
-body {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.flex-container {
-  display: flex;
-  height: 100vh;
-  width: 100vw;
-  justify-content: center;
-}
-
-.flex-column {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  /* background-color: red; */
- background-image: url("../../public/images/clouds2.jpg");
-  background-size: 100%;
-  background-repeat: no-repeat;
-  /* background-position: center; */
-  height: 100vh;
-  width: 50%;
-  gap: 20px; 
-}
-
-.text {
-  font-family: "Old Standard TT", serif;
-  color: white;
-}
-
-
-
-
-
-/* body {
-  background-color: #605b51;
-}
-
-html header body {
+body, ul {
   margin: 0;
   padding: 0;
-  height: 100%;
-  width: 80%;
-
 }
 
+
+
+
+/******************** Navigation bar ********************/
+.navbar {
+  font-family: 'Roboto', serif;
+  background-color: rgba(255, 255, 255, 0); /* Background color of the navigation bar */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  font-size: 14px; 
+  font-family: 'Roboto', serif;
+  border-bottom: 1px solid;
+  border-color: rgba(255, 255, 255, 0.6);
+  min-height: 5vh;
+}
+
+/* Style the logo box */
+.logo {
+  background-color: rgba(255, 255, 255, 0);
+  /* Background color of the logo box */
+  color: rgb(255, 255, 255, 0.6); /* Text color of the logo */
+  padding: 5px 10px;
+  border-radius: 5px; /* Rounded corners */
+  /* font-weight: bold; */
+  font-size: 32px;
+}
+
+/* Style the navigation links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color:rgb(255, 255, 255, 0.6); /* Text color of the links */
+  transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+.nav-links a:hover {
+  color: #00bcd4; /* Text color on hover */
+}
+
+
+/********************************* main-container **********************************/
+
 .main-container {
-  height: 100%;
-  width: 60%;
-  background-image: url("../../public/images/clouds2.jpg");
-  background-attachment: fixed;
-  background-size: cover;
+  background-image: url("../../public/images/computer.png");
   background-repeat: no-repeat;
   background-position: center;
-
-} */
-
-/* main {
+  background-size: auto 100vh;
+  color: rgb(255, 255, 255);
   display: flex;
-  justify-content: center;
-  align-items: center;
-} */
+  flex-direction: column;
+  min-height: 100vh;
+  color: #fff;
+  min-height: calc(100vh - 60px);
+}
+
+/* Common Text Centering and Margin Reset */
+.main-container h1, .main-container h3, .name, .fin p {
+  margin: 0;
+  text-align: center;
+}
+
+.main-container h1 {
+  font-family: "Old Standard TT", serif;
+  font-size: calc(85px + 0.5vw);
+}
+
+.main-container h3 {
+  color: #fff;
+  padding-top: 1%;
+  font-family: 'Quicksand', sans-serif;
+}

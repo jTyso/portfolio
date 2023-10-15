@@ -4,17 +4,26 @@ import AboutMe from "./components/AboutMe";
 
 function App() {
   return (
-    <div className="flex-container">
-      <div className="flex-column">
-        <div className="item item-1"><p className="text">jordan</p></div>
-        <div className="item item-2">
-          <h3 className="text">jordantheisen08@gmail.com</h3>
-        </div>
+    <div>
+      <nav class="navbar">
+        <div class="logo">JT</div>
+        <ul class="nav-links">
+          <li>
+            <a href="#">Portfolio</a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li>
+            <a href="#">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div className="main-container">
+        <h3>Business and Technology Enchanter</h3>
+        <h1>JORDAN THEISEN</h1>
       </div>
-      {/* <NavBar/>
-        <main>
-          <AboutMe/>
-        </main> */}
     </div>
   );
 }

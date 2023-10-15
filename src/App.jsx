@@ -24,6 +24,9 @@ function App() {
         <h3>Business and Technology Enchanter</h3>
         <h1>JORDAN THEISEN</h1>
       </div>
+      <div classname="sully">
+        <img src="./images/sully.jpg" alt="" />
+      </div>
     </div>
   );
 }

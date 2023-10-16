@@ -30,18 +30,14 @@ body, ul {
   min-height: 5vh;
 }
 
-/* Style the logo box */
 .logo {
   background-color: rgba(255, 255, 255, 0);
-  /* Background color of the logo box */
-  color: rgb(255, 255, 255, 0.6); /* Text color of the logo */
+  color: rgb(255, 255, 255, 0.6); 
   padding: 5px 10px;
-  border-radius: 5px; /* Rounded corners */
-  /* font-weight: bold; */
+  border-radius: 5px; 
   font-size: 32px;
 }
 
-/* Style the navigation links */
 .nav-links {
   list-style: none;
   display: flex;
@@ -50,12 +46,12 @@ body, ul {
 
 .nav-links a {
   text-decoration: none;
-  color:rgb(255, 255, 255, 0.6); /* Text color of the links */
-  transition: color 0.3s ease; /* Smooth color transition on hover */
+  color:rgb(255, 255, 255, 0.6);
+  transition: color 0.3s ease; 
 }
 
 .nav-links a:hover {
-  color: #00bcd4; /* Text color on hover */
+  color: #00bcd4;
 }
 
 

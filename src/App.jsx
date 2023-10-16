@@ -15,7 +15,7 @@ function App() {
             <a href="#">About</a>
           </li>
           <li>
-            <a href="#">Contact</a>5
+            <a href="#">Contact</a>
           </li>
         </ul>
       </nav>
@@ -23,9 +23,6 @@ function App() {
       <div className="main-container">
         <h3>Business and Technology Enchanter</h3>
         <h1>JORDAN THEISEN</h1>
-      </div>
-      <div classname="sully">
-        <img src="./images/wallapaper.png" alt="" />
       </div>
     </div>
   );

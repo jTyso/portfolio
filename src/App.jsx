@@ -9,7 +9,6 @@ function App() {
       <div className="scroll-container">
         <h1>JORDAN THEISEN</h1>
         <h3>Technology and Business Enchanter</h3>
-        <p>..Coming soon...</p>
       </div>
       {/* <div className="spacer"></div> */}
     </div>

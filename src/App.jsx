@@ -4,26 +4,14 @@ import AboutMe from "./components/AboutMe";
 
 function App() {
   return (
-    <div>
-      <nav class="navbar">
-        <div class="logo">JT</div>
-        <ul class="nav-links">
-          <li>
-            <a href="#">Portfolio</a>
-          </li>
-          <li>
-            <a href="#">About</a>
-          </li>
-          <li>
-            <a href="#">Contact</a>
-          </li>
-        </ul>
-      </nav>
-
-      <div className="main-container">
-        <h3>Business and Technology Enchanter</h3>
+    <div className="app-container">
+      <div className="hero-image"></div>
+      <div className="scroll-container">
         <h1>JORDAN THEISEN</h1>
+        <h3>Technology and Business Enchanter</h3>
+        <p>..Coming soon...</p>
       </div>
+      {/* <div className="spacer"></div> */}
     </div>
   );
 }
